@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lista de Tareas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>Lista de Tareas</h1>
+    <div id="app">
+      <div id="input-container">
+        <input type="text" id="taskInput" placeholder="Agregar nueva tarea" />
+        <button onclick="addTask()">Agregar</button>
+      </div>
+      <ul id="taskList">
+        <!-- Aquí se agregarán las tareas -->
+      </ul>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
